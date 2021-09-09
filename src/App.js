@@ -1,6 +1,7 @@
 import "./styles.css";
 import React, { useState } from "react";
 
+// Database of animes
 const Animes = {
   Action: [
     {
@@ -97,12 +98,15 @@ const Animes = {
 export default function App() {
   const [anime, setAnime] = useState("Action");
 
+  //function to change databse object according to
+  // category selected
   function ClickEventHandler(tag) {
     setAnime(tag);
   }
   return (
     <div className="App">
       <nav>
+        {/* Navigation bar  */}
         <h1 className="Heading"> Anime Recommendations! </h1>
 
         {Object.keys(Animes).map((tag) => (
@@ -118,12 +122,14 @@ export default function App() {
 
       <div>
         {Object.values(Animes[anime]).map((item) => {
+          // assigning local variable for simplification
           var title = item.name;
           var rating = item.rating;
           var desc = item.desc;
           var img = item.Img;
           return (
             <li key={item}>
+              {/* this div signifies a single recommendation pf the item */}
               <div className="container BorderMe ">
                 <span className="listItems BorderMe">
                   Name:{title}
@@ -142,3 +148,4 @@ export default function App() {
     </div>
   );
 }
+// The end

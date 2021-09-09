@@ -2,44 +2,51 @@
 :root {
   --primary-color: rgb(238, 44, 44);
 }
-
-.Heading {
-  font-size: x-large;
-  font-family: "Rock Salt", cursive;
-}
 body {
   margin: 0px;
   background-color: var(--primary-color);
-}
-.check {
-  border-top-left-radius: 4rem;
-  background-color: white;
 }
 .App {
   margin: 0px;
   font-family: "Arima Madurai", cursive;
   text-align: center;
 }
-nav {
-  background-color: white;
+/* Navigation */
+.Heading {
+  font-size: x-large;
+  font-family: "Rock Salt", cursive;
+  color: white;
 }
+
+nav {
+  background-color: var(--primary-color);
+}
+
 li {
   cursor: pointer;
   display: inline;
 }
+/* miscellanous classes */
 .pads {
   padding: 2rem;
 }
 .marginHere {
   margin: 0 0 3rem 1rem;
 }
+.largify {
+  text-align: center;
+  font-size: xx-large;
+  padding: 2rem;
+  margin: 1.3rem;
+}
+
+/* Recommended sections */
 
 .listItems {
   margin: 1rem;
   display: inline-block;
   padding: 1rem;
   width: 40%;
-  /* min-width: 8rem; */
 }
 
 .container {
@@ -49,12 +56,6 @@ li {
   margin-top: 1rem;
 }
 
-.largify {
-  text-align: center;
-  font-size: xx-large;
-  padding: 2rem;
-  margin: 1.3rem;
-}
 .BorderMe {
   border: 1px solid var(--primary-color);
   background-color: white;
@@ -74,9 +75,9 @@ li {
   width: 185px;
   font-size: 20px;
   font-weight: 900;
-  box-shadow: 1px 1px 6px 0px #000000;
+  box-shadow: 1px 1px 6px 0px #ffffff;
   text-shadow: 1px 1px 6px #000000;
-  border: solid #762c2c 1px;
+  border: solid #fffefe 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
