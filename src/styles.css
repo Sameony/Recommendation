@@ -4,7 +4,7 @@
 }
 
 .Heading {
-  font-size: xx-large;
+  font-size: x-large;
   font-family: "Rock Salt", cursive;
 }
 body {
@@ -23,9 +23,6 @@ body {
 nav {
   background-color: white;
 }
-.navigate {
-  text-align: left;
-}
 li {
   cursor: pointer;
   display: inline;
@@ -42,12 +39,14 @@ li {
   display: inline-block;
   padding: 1rem;
   width: 40%;
-  min-width: 8rem;
+  /* min-width: 8rem; */
 }
 
 .container {
   background-color: var(--primary-color);
   padding: 1rem;
+  cursor: default;
+  margin-top: 1rem;
 }
 
 .largify {
@@ -85,8 +84,10 @@ li {
   margin: 1rem;
 }
 
+.animg {
+  display: inline-block;
+}
 .Synopsis {
-  width: 40%;
-  min-width: 8rem;
+  max-width: 40rem;
   margin: auto;
 }

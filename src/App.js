@@ -124,15 +124,15 @@ export default function App() {
           var img = item.Img;
           return (
             <li key={item}>
-              <div className="container">
+              <div className="container BorderMe ">
                 <span className="listItems BorderMe">
                   Name:{title}
                   <br />
                   MAL rating: {rating}
                 </span>
                 <div>
-                  <img src={img} alt={title} className="book-img" />
-                  <p className="BorderMe Synopsis"> {desc}</p>
+                  <img src={img} alt={title} className="animg" />
+                  <p className="Synopsis"> {desc}</p>
                 </div>
               </div>
             </li>
