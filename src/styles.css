@@ -3,6 +3,7 @@
   text-align: center;
 }
 
-.pointer {
+li {
   cursor: pointer;
+  display: inline;
 }
