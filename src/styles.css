@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Rock+Salt&display=swap");
 :root {
-  --primary-color: skyblue;
+  --primary-color: rgb(238, 44, 44);
 }
 
 .Heading {
@@ -46,9 +46,8 @@ li {
 }
 
 .container {
-  margin: 1rem;
   background-color: var(--primary-color);
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .largify {
@@ -84,4 +83,10 @@ li {
   cursor: pointer;
   padding: 1rem;
   margin: 1rem;
+}
+
+.Synopsis {
+  width: 40%;
+  min-width: 8rem;
+  margin: auto;
 }
