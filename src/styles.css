@@ -1,9 +1,87 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Rock+Salt&display=swap");
+:root {
+  --primary-color: skyblue;
 }
 
+.Heading {
+  font-size: xx-large;
+  font-family: "Rock Salt", cursive;
+}
+body {
+  margin: 0px;
+  background-color: var(--primary-color);
+}
+.check {
+  border-top-left-radius: 4rem;
+  background-color: white;
+}
+.App {
+  margin: 0px;
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+}
+nav {
+  background-color: white;
+}
+.navigate {
+  text-align: left;
+}
 li {
   cursor: pointer;
   display: inline;
+}
+.pads {
+  padding: 2rem;
+}
+.marginHere {
+  margin: 0 0 3rem 1rem;
+}
+
+.listItems {
+  margin: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  width: 40%;
+  min-width: 8rem;
+}
+
+.container {
+  margin: 1rem;
+  background-color: var(--primary-color);
+  padding: 2rem;
+}
+
+.largify {
+  text-align: center;
+  font-size: xx-large;
+  padding: 2rem;
+  margin: 1.3rem;
+}
+.BorderMe {
+  border: 1px solid var(--primary-color);
+  background-color: white;
+}
+.colorMe {
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+/* button styling */
+.ListButton {
+  background: rgb(238, 44, 44);
+  border-radius: 1rem;
+  height: 3.5rem;
+  color: #ffffff;
+  font-family: "Arima Madurai", cursive;
+  width: 185px;
+  font-size: 20px;
+  font-weight: 900;
+  box-shadow: 1px 1px 6px 0px #000000;
+  text-shadow: 1px 1px 6px #000000;
+  border: solid #762c2c 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 1rem;
 }
