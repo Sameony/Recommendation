@@ -16,7 +16,7 @@ const Animes = {
       rating: 8.5,
       Img: "https://cdn.myanimelist.net/images/anime/1429/95946.jpg",
       desc:
-        "kame ga Kill! follows Tatsumi as he fights the Empire and comes face-to-face with powerful weapons, enemy assassins, challenges to his own morals and values, and ultimately, what it truly means to be an assassin with a cause."
+        "Akame ga Kill! follows Tatsumi as he fights the Empire and comes face-to-face with powerful weapons, enemy assassins, challenges to his own morals and values, and ultimately, what it truly means to be an assassin with a cause."
     },
     {
       name: "Fate/Zero",
